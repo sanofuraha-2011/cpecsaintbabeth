@@ -21,14 +21,15 @@ body{
     align-items:center;
     justify-content:center;
     padding:8px 15px;
-    background:linear-gradient(90deg,#d6e31f,#261f75);
+    background:linear-gradient(90deg,#1a1c00,#261f75);
     color:white;
     box-shadow:0 4px 20px rgba(0,0,0,0.2);
     position:relative;
+    height:100px;
 }
 
 .logo{
-    display:flex;
+
     align-items:center;
     gap:20px;
 }
@@ -38,12 +39,12 @@ body{
     height:50px;
     border-radius:50%;
     border:2px solid #0a4400;
-    background-color:#f8fbfafd;
+    background-color:#fbf8f8fd;
 }
 
 .logo h2{
     font-size:30px;
-    color:whitesmoke;
+    color:rgb(255, 0, 0);
     margin:0;
 }
 
@@ -54,17 +55,18 @@ nav{
     justify-content:center;
     gap:10px;
     padding:14px;
-    background:rgba(113,164,207,0.85);
-    backdrop-filter:blur(6px);
+    height: 30px;
+   
 }
 
 nav a{
     text-decoration:none;
     padding:10px 16px;
-    background:#1c014b;
-    color:white;
+    background:#00ffe1;
+    color:rgb(37, 0, 62);
     border-radius:10px;
     transition:0.3s;
+    font-size: 12px;
 }
 
 nav a:hover{
@@ -341,46 +343,6 @@ button:hover{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
     gap:10px;
-}
-.social-icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-.social-icons .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #111;
-  transition: 0.3s;
-  box-shadow: 0 0 5px rgba(255,255,255,0.2);
-}
-
-.social-icons .icon img {
-  width: 25px;
-  height: 25px;
-}
-
-/* Instagram glow */
-.social-icons .insta:hover {
-  box-shadow: 0 0 15px #ff2e91, 0 0 30px #ff2e91;
-  transform: scale(1.1);
-}
-
-/* Facebook glow */
-.social-icons .fb:hover {
-  box-shadow: 0 0 15px #1877f2, 0 0 30px #1877f2;
-  transform: scale(1.1);
-}
-
-/* Twitter glow */
-.social-icons .tw:hover {
-  box-shadow: 0 0 15px #1da1f2, 0 0 30px #1da1f2;
-  transform: scale(1.1);
 }
 
 .gallery-grid img{
