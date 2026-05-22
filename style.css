@@ -342,6 +342,46 @@ button:hover{
     grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
     gap:10px;
 }
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #111;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(255,255,255,0.2);
+}
+
+.social-icons .icon img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Instagram glow */
+.social-icons .insta:hover {
+  box-shadow: 0 0 15px #ff2e91, 0 0 30px #ff2e91;
+  transform: scale(1.1);
+}
+
+/* Facebook glow */
+.social-icons .fb:hover {
+  box-shadow: 0 0 15px #1877f2, 0 0 30px #1877f2;
+  transform: scale(1.1);
+}
+
+/* Twitter glow */
+.social-icons .tw:hover {
+  box-shadow: 0 0 15px #1da1f2, 0 0 30px #1da1f2;
+  transform: scale(1.1);
+}
 
 .gallery-grid img{
     width:100%;
